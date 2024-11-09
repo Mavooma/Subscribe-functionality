@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3b3b4f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon-container {
+    width: 60px;
+    height: 60px;
+    background-color: #fff; /* White background for the circle */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px; /* Center and add bottom margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for effect */
+}
+
+.icon-container svg,
+.icon-container i,
+.icon-container img {
+    width: 50px;
+    height: 50px;
+    color: #d94566; /* Icon color matching the container background */
+}
+
+.subscribe-container {
+    background-color: #d94566;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between input fields */
+}
+
+.name-input,
+.email-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2a2a3b; /* Darker background for contrast */
+    color: #fff; /* White text color */
+    text-transform: uppercase;
+    text-align: center;
+    outline: none; /* Removes default focus outline */
+    box-sizing: border-box;
+}
+
+.name-input::placeholder,
+.email-input::placeholder {
+    color: #ccc; /* Light grey placeholder color */
+}
+
+.subscribe-button {
+    padding: 10px;
+    background-color: #fff;
+    color: #d94566;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.subscribe-button:hover {
+    background-color: #f2f2f2;
+}
